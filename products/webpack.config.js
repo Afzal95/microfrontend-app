@@ -46,7 +46,7 @@ module.exports = (_, argv) => ({
       filename: "remoteEntry.js",
       remotes: {
         home: `home@https://microfrontend-app-home-lovat.vercel.app/remoteEntry.js`,
-        cart: `cart@https://microfrontend-app-teal.vercel.app/remoteEntry.js`
+        cart: `cart@https://microfrontend-app-njuf.vercel.app/remoteEntry.js`
       },
       exposes: {},
       shared: {
