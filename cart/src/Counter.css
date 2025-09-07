@@ -1,0 +1,85 @@
+/* Counter.css */
+
+.counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4f46e5, #3b82f6);
+  padding: 1rem;
+}
+
+.counter-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  max-width: 320px;
+  width: 100%;
+}
+
+.counter-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #111827;
+}
+
+.counter-value {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  color: #2563eb;
+}
+
+.counter-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.btn {
+  flex: 1;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Button styles */
+.btn-decrease {
+  background: #ef4444;
+  color: white;
+}
+
+.btn-decrease:hover {
+  background: #dc2626;
+}
+
+.btn-reset {
+  background: #6b7280;
+  color: white;
+}
+
+.btn-reset:hover {
+  background: #4b5563;
+}
+
+.btn-increase {
+  background: #10b981;
+  color: white;
+}
+
+.btn-increase:hover {
+  background: #059669;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+  .counter-actions {
+    flex-direction: column;
+  }
+}
